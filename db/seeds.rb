@@ -11,7 +11,8 @@
       :last_name             => "admin",
       :email                 => "123@gmail.com",
       :password              => "admin@123",
-      :password_confirmation => "admin@123"
+      :password_confirmation => "admin@123",
+      :role => "admin"
   )
   admin.save!
 
